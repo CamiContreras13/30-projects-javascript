@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Notes App | JavaScript</title>
+</head>
+<body>
+    <div class="container my-3">
+        <h1 class="text-primary">Notes App | JavaScript</h1>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title text-secondry">Add Note</h5>
+                <div class="form-group">
+                    <textarea class="form-control mb-3" id="noteText" rows="8">
+                    </textarea>
+                </div>
+                <button class="btn btn-primary" id="addNote">Add Note</button>
+            </div>
+        </div>
+        <hr>
+        <h1 class="text-primary">Your Notes</h1>
+        <hr>
+        <div id="notes" class="row container-fluid text-secondary"></div>
+    </div>
+    <footer 
+            style="
+                position: absolute;
+                bottom: 0px; 
+                text-align: center; 
+                width: 100vw; 
+                background: gainsboro;
+            "
+    >
+    <span style="color: red;">&hearts;</span>
+    CamiContreras13
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
